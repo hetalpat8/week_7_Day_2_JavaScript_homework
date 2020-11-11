@@ -21,7 +21,7 @@ let person3 = {
     for (let i = 0; i < Object.keys(person3).length; i++) {
         if (Array.isArray(Object.values(person3)[i])) {
         console.log(Object.values(person3)[i])
-        console.log(Object.keys(person)[i])
+        console.log(Object.keys(person3)[i])
         }
     }
 //=======Exercise #2=========//
@@ -48,8 +48,8 @@ function Person(name, age) {
 let new_person = new Person('Jane', 96);
 console.log(new_person.printInfo())
 
-let new_person = new Person('Bob', 90);
-console.log(new_person.printInfo())
+let new_person = new Person1('Bob', 90);
+console.log(new_person1.printInfo())
 
 // Use an arrow to create the printInfo method
 
